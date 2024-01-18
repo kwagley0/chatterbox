@@ -83,6 +83,7 @@ const SingleChat = ({ fetchAgain, setFetchAgain }) => {
     return () => {
       socket.disconnect(); // Clean up the socket connection when the component is unmounted
     };
+    // eslint-disable-next-line
   }, []);
 
   useEffect(() => {
