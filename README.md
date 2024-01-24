@@ -10,7 +10,7 @@
 ![Image 1-24-24 at 4 52 PM](https://github.com/kwagley0/Chatterbox/assets/121137026/112bbc1d-e922-4f65-b1c2-1d2936b7eb38)
 ![Screenshot 2024-01-24 at 4 44 51 PM](https://github.com/kwagley0/Chatterbox/assets/121137026/d9764951-420e-4b3b-83ee-0abc001f0b4b)
 |:--:| 
-| *Space* |
+### | *Space* |
 
 ## Overview
 
