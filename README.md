@@ -8,14 +8,7 @@
 
 ## Overview
 
-Chatterbox is a full-stack web application with real-time messaging functionality, developed between July 2023 and August 2023. The application enables seamless one-on-one and group chat capabilities using the MERN stack (MongoDB, Express.js, React, Node.js). It provides users with an intuitive and responsive interface for effective communication.
-
-## Features
-
-- Real-time messaging functionality
-- One-on-one and group chat capabilities
-- Authenticated user system with JWT
-- Password encryption using Bcryptjs
+Chatterbox is a full-stack web application with real-time messaging functionality. The application enables seamless one-on-one and group chat capabilities using the MERN stack (MongoDB, Express.js, React, Node.js). It provides users with an intuitive and responsive interface for effective communication.
 
 ## Technologies Used
 
