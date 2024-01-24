@@ -4,7 +4,7 @@
 ![Chatterbox Logo](images/chatterbox_logo.png)
 
 ## Deployed Website
-[Chatterbox Live Server](https://chatterbox-h2rw.onrender.com/)
+[Chatterbox Live Server](https://chatterbox-rbhp.onrender.com)
 
 ## Overview
 
