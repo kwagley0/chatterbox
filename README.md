@@ -1,10 +1,10 @@
 # Chatterbox
 
-## Images
-![Chatterbox Logo](images/chatterbox_logo.png)
-
 ## Deployed Website
 [Chatterbox Live Server](https://chatterbox-rbhp.onrender.com)
+
+## Images
+![Chatterbox Logo](images/chatterbox_logo.png)
 
 ## Overview
 
