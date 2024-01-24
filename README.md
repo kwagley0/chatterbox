@@ -4,7 +4,8 @@
 [Chatterbox Live Server](https://chatterbox-rbhp.onrender.com)
 
 ## Images
-![Chatterbox Logo](images/chatterbox_logo.png)
+![Chatterbox Logo](![Screenshot 2024-01-24 at 4 42 55 PM](https://github.com/kwagley0/Chatterbox/assets/121137026/e142dbee-2c05-40c3-81a8-58d9cdb5ce46)
+)
 
 ## Overview
 
