@@ -260,7 +260,7 @@ const SingleChat = ({ fetchAgain, setFetchAgain }) => {
       ) : (
         <Box d="flex" alignItems="center" justifyContent="center" h="100%">
           <Text fontSize="3xl" pb={3} fontFamily="Work sans">
-            Begin Chatting By Selecting a User
+            Begin Chatting By Selecting a User or Group
           </Text>
         </Box>
       )}
