@@ -31,6 +31,13 @@ import NotificationBadge from "react-notification-badge";
 import { Effect } from "react-notification-badge";
 
 const SideDrawer = () => {
+  const gradientTextStyle = {
+    background: "-webkit-linear-gradient(45deg, #98bae8, #f8bfc5)",
+    WebkitBackgroundClip: "text",
+    WebkitTextFillColor: "transparent",
+    fontFamily: "Work Sans, sans-serif",
+  };
+
   const [search, setSearch] = useState("");
   const [searchResult, setSearchResult] = useState([]);
   const [loading, setLoading] = useState(false);
@@ -140,7 +147,7 @@ const SideDrawer = () => {
           </Button>
         </Tooltip>
 
-        <Text fontSize="2xl" fontFamily="Work sans">
+        <Text style={gradientTextStyle} fontWeight='1000' fontSize="2xl">
           Chatterbox
         </Text>
         <div>
@@ -200,7 +207,7 @@ const SideDrawer = () => {
           <DrawerBody>
             <Box d="flex" pb={2}>
               <Input
-                placeholder="Search by name or email"
+                placeholder="Search for name or email"
                 mr={2}
                 value={search}
                 onChange={(e) => setSearch(e.target.value)}

@@ -117,7 +117,7 @@ const Login = () => {
           setPassword("123456");
         }}
       >
-        Get Guest User Credentials
+        Click For Fast Login (Guest User)
       </Button>
     </VStack>
   );

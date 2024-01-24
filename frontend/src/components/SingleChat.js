@@ -250,7 +250,7 @@ const SingleChat = ({ fetchAgain, setFetchAgain }) => {
               <Input
                 variant="filled"
                 bg="#E0E0E0"
-                placeholder="Enter a message.."
+                placeholder="Type here to chat..."
                 onChange={typingHandler}
                 value={newMessage}
               />
@@ -260,7 +260,7 @@ const SingleChat = ({ fetchAgain, setFetchAgain }) => {
       ) : (
         <Box d="flex" alignItems="center" justifyContent="center" h="100%">
           <Text fontSize="3xl" pb={3} fontFamily="Work sans">
-            Click on a user to start chatting
+            Begin Chatting By Selecting a User
           </Text>
         </Box>
       )}

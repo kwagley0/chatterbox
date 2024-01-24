@@ -14,6 +14,13 @@ import Signup from "../components/Authentication/Signup";
 import { useHistory } from "react-router-dom";
 
 const Homepage = () => {
+  const gradientTextStyle = {
+    background: "-webkit-linear-gradient(45deg, #98bae8, #f8bfc5)",
+    WebkitBackgroundClip: "text",
+    WebkitTextFillColor: "transparent",
+    fontFamily: "Work Sans, sans-serif",
+  };
+
   const history = useHistory();
 
   useEffect(() => {
@@ -22,6 +29,7 @@ const Homepage = () => {
     if (user) history.push("/chats");
   }, [history]);
 
+  
   return (
     <div>
       <Container maxW="xl" centerContent>
@@ -35,9 +43,7 @@ const Homepage = () => {
           borderRadius="lg"
           borderWidth="1px"
         >
-          <Text fontSize="4xl" fontFamily="Work sans" color="black">
-            Chatterbox
-          </Text>
+          <Text style={gradientTextStyle} fontSize="40px" fontWeight='1000'>Chatterbox</Text>
         </Box>
         <Box bg="white" w="100%" p={4} borderRadius="lg" borderWidth="1px">
           <Tabs variant="soft-rounded">
