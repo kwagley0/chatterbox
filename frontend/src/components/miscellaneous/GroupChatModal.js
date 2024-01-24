@@ -34,6 +34,7 @@ const GroupChatModal = ({ children }) => {
   const handleSearch = async (query) => {
     setSearch(query);
     if (!query) {
+      setSearchResult([]);
       return;
     }
 
@@ -146,7 +147,7 @@ const handleSubmit = async () => {
           <ModalBody d="flex" flexDir="column" alignItems="center">
             <FormControl>
               <Input
-                placeholder="Chat Name"
+                placeholder="Group Chat Name"
                 mb={3}
                 onChange={(e) => setGroupChatName(e.target.value)}
               />
@@ -154,7 +155,7 @@ const handleSubmit = async () => {
 
             <FormControl>
               <Input
-                placeholder="Add Users eg: John, Piyush, Jane"
+                placeholder="Add Users eg: John, Jane, David"
                 mb={1}
                 onChange={(e) => handleSearch(e.target.value)}
               />

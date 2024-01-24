@@ -59,6 +59,7 @@ const Login = () => {
       localStorage.setItem("userInfo", JSON.stringify(data));
       setLoading(false);
       history.push("/chats");
+      window.location.reload(true);
     } catch (error) {
       toast({
         title: "Error Occured!",
@@ -90,7 +91,7 @@ const Login = () => {
             value={password}
             onChange={(e) => setPassword(e.target.value)}
             type={show ? "text" : "password"}
-            placeholder="Enter password"
+            placeholder="Enter Password"
           />
           <InputRightElement width="4.5rem">
             <Button h="1.75rem" size="sm" onClick={handleClick}>

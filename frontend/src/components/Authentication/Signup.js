@@ -34,12 +34,10 @@ const Signup = () => {
       data.append("file", pics);
       data.append("upload_preset", "mern-proj");
       data.append("cloud_name", "dqgso9yn0");
-      fetch("https://api.cloudinary.com/v1_1/dqgso9yn09o/image/upload",
-        {
-          method: "post",
-          body: data,
-        }
-      )
+      fetch("https://api.cloudinary.com/v1_1/dqgso9yn0/image/upload", {
+        method: "post",
+        body: data,
+      })
         .then((res) => res.json())
         .then((data) => {
           setPic(data.url.toString());
@@ -114,6 +112,7 @@ const Signup = () => {
       localStorage.setItem("userInfo", JSON.stringify(data));
       setPicLoading(false);
       history.push("/chats");
+      window.location.reload(true);
     } catch (error) {
       toast({
         title: "Error Occured!",
@@ -166,7 +165,7 @@ const Signup = () => {
         <InputGroup size="md">
           <Input
             type={show ? "text" : "password"}
-            placeholder="Confirm password"
+            placeholder="Confirm Password"
             onChange={(e) => setConfirmpassword(e.target.value)}
           />
           <InputRightElement width="4.5rem">
