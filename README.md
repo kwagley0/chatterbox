@@ -6,7 +6,7 @@
     🚀 Chatterbox
 </h1>
 
-<p align="center">Seamless one-on-one and group chat capabilitie.</p>
+<p align="center">Seamless one-on-one and group chat capabilities.</p>
 
 <p align="center">
   <a href="#-features">Features</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
