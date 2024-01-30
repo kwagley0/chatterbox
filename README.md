@@ -1,5 +1,5 @@
 <h4 align="center">
-  <img src="https://github.com/kwagley0/crypto-dashboard/blob/main/src/logo.png" alt="logo" height="75"/>
+  <img src="https://github.com/kwagley0/crypto-dashboard/assets/121137026/686f9faa-f209-41b5-bc39-5d24ce1f589f" alt="logo" height="75"/>
 </h4>
 
 <h1 align="center">
