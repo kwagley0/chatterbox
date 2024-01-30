@@ -20,14 +20,6 @@
 - [x] Notifications
 - [x] Real-time messaging and typing indicator
 - [x] Group chat functionality
-- [x] Current market cap
-- [x] Price history of the last 365 days
-- [x] Change the price history range over 24 hours, 30 days, 3 months or 1 year
-- [x] Conversion to USD and EUR
-- [x] Cryptocurrency data tracking
-- [x] User-friendly interface for market trend visualization
-- [x] Secure user authentication system
-- [x] Customized watchlist for tracking favorite cryptocurrencies
       
 ### 🚀 Live Website 
 
