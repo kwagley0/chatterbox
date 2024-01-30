@@ -20,6 +20,7 @@
 - [x] Notifications
 - [x] Real-time messaging and typing indicator
 - [x] Group chat functionality
+- [x] User profiles
       
 ### 🚀 Live Website 
 
