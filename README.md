@@ -16,7 +16,7 @@
 </p>
 
 ### 📎 Features 
-
+- [x] One-on-one chatting
 - [x] Notifications
 - [x] Real-time messaging and typing indicator
 - [x] Group chat functionality
