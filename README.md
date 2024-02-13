@@ -24,7 +24,7 @@
       
 ### 🚀 Live Website 
 
-This project is live on [Render](https://chatterbox-rbhp.onrender.com).
+This project is live on [Render](https://chatterbox-rbhp.onrender.com). (May take up to a minute to load due to Render's free website hosting plan)
 
 ### ✅ Screenshots
 <div style="display: flex;">
